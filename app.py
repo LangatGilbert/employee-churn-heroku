@@ -3,6 +3,7 @@ from pycaret.utils import check_metric
 import streamlit as st
 import pandas as pd 
 import numpy as np 
+import base64
 
 #load the model
 model = load_model('employees_churn_model')
@@ -17,13 +18,13 @@ def predict(model , input_df):
 def run():
 
     from PIL import Image
-    # Image.open('../image/download.png').convert('RGB').save('../image/logo.png')
-    # image = Image.open('../image/logo.png')
+    Image.open('./image/download.png').convert('RGB').save('logo.png')
+    image = Image.open('logo.png')
 
-    Image.open('kate-sade-unsplash.jpg').convert('RGB').save('employee_churn.png')
-    image_churn = Image.open('employee_churn.png')
+    Image.open('employee-turnover.png').convert('RGB').save('employee-turnover2.png')
+    image_churn = Image.open('employee-turnover2.png')
 
-    # st.image(image)
+    
 
     add_selectbox = st.sidebar.selectbox(
     "How would you like to input features?",
@@ -34,7 +35,7 @@ def run():
 
     st.title("Employee Churn Prediction App")
 
-    st.image(image_churn,)
+    st.image(image_churn)
 
     st.write("""
     Photo by [Kate.sade](https://unsplash.com/photos/2zZp12ChxhU) on Unsplash.
@@ -74,6 +75,9 @@ def run():
 
         st.subheader("Model Prediction")
         st.write(output)
+        st.write('---')
+
+        
 
     if add_selectbox == 'Batch':
 
@@ -82,12 +86,26 @@ def run():
         if file_upload is not None:
             data = pd.read_csv(file_upload)
             predictions = predict_model(estimator=model,data=data)
+    
+            #checking model accuracy on the unseen dataset
+            st.subheader("Model Predictions on the batch data")
+
             st.write(predictions.head())
 
-            #checking model accuracy on the unseen dataset
-            st.subheader("Model Accuracy on the batch data")
+            st.subheader("Model Accuracy")
 
             st.write(check_metric(predictions['left'], predictions['Label'], metric = 'Accuracy'))
+            st.write('----')
 
+            #Download the csv file.
+            def filedownload(df):
+                csv = df.to_csv(index=False)
+                b64 = base64.b64encode(csv.encode()).decode()
+                href = f'<a href = "data:file/csv;base64,{b64}" download = "predictions.csv">Download the Predictions</a>'
+                return href
+                
+            st.markdown(filedownload(predictions), unsafe_allow_html = True)
+    
+    st.sidebar.image(image)
 if __name__ == '__main__':
     run()

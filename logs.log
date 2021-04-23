@@ -60,3 +60,503 @@
                                 reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
 2021-04-22 17:59:09,340:INFO:Checking exceptions
 2021-04-22 17:59:09,341:INFO:Preloading libraries
+2021-04-23 10:33:16,331:INFO:Initializing load_model()
+2021-04-23 10:33:16,342:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:35:00,535:INFO:Initializing load_model()
+2021-04-23 10:35:00,537:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:35:04,499:INFO:Initializing load_model()
+2021-04-23 10:35:04,500:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:35:08,676:INFO:Initializing predict_model()
+2021-04-23 10:35:08,676:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:35:08,681:INFO:Checking exceptions
+2021-04-23 10:35:08,681:INFO:Preloading libraries
+2021-04-23 10:36:51,364:INFO:Initializing load_model()
+2021-04-23 10:36:51,364:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:37:01,990:INFO:Initializing load_model()
+2021-04-23 10:37:01,991:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:37:06,211:INFO:Initializing predict_model()
+2021-04-23 10:37:06,211:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:37:06,214:INFO:Checking exceptions
+2021-04-23 10:37:06,215:INFO:Preloading libraries
+2021-04-23 10:38:00,849:INFO:Initializing load_model()
+2021-04-23 10:38:00,850:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:38:05,050:INFO:Initializing predict_model()
+2021-04-23 10:38:05,051:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:38:05,054:INFO:Checking exceptions
+2021-04-23 10:38:05,054:INFO:Preloading libraries
+2021-04-23 10:38:54,538:INFO:Initializing load_model()
+2021-04-23 10:38:54,539:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:38:58,811:INFO:Initializing predict_model()
+2021-04-23 10:38:58,812:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:38:58,815:INFO:Checking exceptions
+2021-04-23 10:38:58,816:INFO:Preloading libraries
+2021-04-23 10:40:22,326:INFO:Initializing load_model()
+2021-04-23 10:40:22,327:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:40:26,642:INFO:Initializing predict_model()
+2021-04-23 10:40:26,643:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:40:26,646:INFO:Checking exceptions
+2021-04-23 10:40:26,647:INFO:Preloading libraries
+2021-04-23 10:41:24,906:INFO:Initializing load_model()
+2021-04-23 10:41:24,906:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:41:29,199:INFO:Initializing predict_model()
+2021-04-23 10:41:29,199:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:41:29,203:INFO:Checking exceptions
+2021-04-23 10:41:29,204:INFO:Preloading libraries
+2021-04-23 10:47:21,895:INFO:Initializing load_model()
+2021-04-23 10:47:21,895:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:47:26,235:INFO:Initializing predict_model()
+2021-04-23 10:47:26,235:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:47:26,242:INFO:Checking exceptions
+2021-04-23 10:47:26,245:INFO:Preloading libraries
+2021-04-23 10:48:08,458:INFO:Initializing load_model()
+2021-04-23 10:48:08,458:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:48:12,677:INFO:Initializing predict_model()
+2021-04-23 10:48:12,678:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:48:12,681:INFO:Checking exceptions
+2021-04-23 10:48:12,682:INFO:Preloading libraries
+2021-04-23 10:49:23,442:INFO:Initializing load_model()
+2021-04-23 10:49:23,443:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:49:27,694:INFO:Initializing predict_model()
+2021-04-23 10:49:27,695:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 10:49:27,698:INFO:Checking exceptions
+2021-04-23 10:49:27,698:INFO:Preloading libraries
+2021-04-23 10:49:51,546:INFO:Initializing load_model()
+2021-04-23 10:49:51,546:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:53:15,307:INFO:Initializing load_model()
+2021-04-23 10:53:15,309:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:53:19,387:INFO:Initializing load_model()
+2021-04-23 10:53:19,388:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:53:29,647:INFO:Initializing load_model()
+2021-04-23 10:53:29,648:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:57:15,092:INFO:Initializing load_model()
+2021-04-23 10:57:15,092:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:57:40,757:INFO:Initializing load_model()
+2021-04-23 10:57:40,758:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:58:00,734:INFO:Initializing load_model()
+2021-04-23 10:58:00,734:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:58:04,384:INFO:Initializing load_model()
+2021-04-23 10:58:04,384:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:58:05,280:INFO:Initializing load_model()
+2021-04-23 10:58:05,281:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 10:59:30,871:INFO:Initializing load_model()
+2021-04-23 10:59:30,871:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:00:40,851:INFO:Initializing load_model()
+2021-04-23 11:00:40,852:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:00:58,595:INFO:Initializing load_model()
+2021-04-23 11:00:58,596:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:02:33,386:INFO:Initializing load_model()
+2021-04-23 11:02:33,387:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:05,327:INFO:Initializing load_model()
+2021-04-23 11:03:05,329:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:05,692:INFO:Initializing load_model()
+2021-04-23 11:03:05,692:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:14,735:INFO:Initializing load_model()
+2021-04-23 11:03:14,735:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:34,668:INFO:Initializing load_model()
+2021-04-23 11:03:34,669:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:49,203:INFO:Initializing load_model()
+2021-04-23 11:03:49,204:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:52,087:INFO:Initializing load_model()
+2021-04-23 11:03:52,088:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:03:52,198:INFO:Initializing predict_model()
+2021-04-23 11:03:52,199:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:03:52,204:INFO:Checking exceptions
+2021-04-23 11:03:52,206:INFO:Preloading libraries
+2021-04-23 11:04:04,446:INFO:Initializing load_model()
+2021-04-23 11:04:04,447:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:06,655:INFO:Initializing load_model()
+2021-04-23 11:04:06,655:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:06,762:INFO:Initializing predict_model()
+2021-04-23 11:04:06,763:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:04:06,770:INFO:Checking exceptions
+2021-04-23 11:04:06,771:INFO:Preloading libraries
+2021-04-23 11:04:11,059:INFO:Initializing load_model()
+2021-04-23 11:04:11,059:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:14,483:INFO:Initializing load_model()
+2021-04-23 11:04:14,484:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:15,394:INFO:Initializing load_model()
+2021-04-23 11:04:15,395:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:15,501:INFO:Initializing predict_model()
+2021-04-23 11:04:15,506:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:04:15,509:INFO:Checking exceptions
+2021-04-23 11:04:15,510:INFO:Preloading libraries
+2021-04-23 11:04:20,645:INFO:Initializing load_model()
+2021-04-23 11:04:20,645:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:20,751:INFO:Initializing predict_model()
+2021-04-23 11:04:20,753:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:04:20,756:INFO:Checking exceptions
+2021-04-23 11:04:20,757:INFO:Preloading libraries
+2021-04-23 11:04:25,779:INFO:Initializing load_model()
+2021-04-23 11:04:25,780:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:27,012:INFO:Initializing load_model()
+2021-04-23 11:04:27,012:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:27,126:INFO:Initializing predict_model()
+2021-04-23 11:04:27,128:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:04:27,131:INFO:Checking exceptions
+2021-04-23 11:04:27,133:INFO:Preloading libraries
+2021-04-23 11:04:31,211:INFO:Initializing load_model()
+2021-04-23 11:04:31,211:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:32,130:INFO:Initializing load_model()
+2021-04-23 11:04:32,131:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:32,504:INFO:Initializing load_model()
+2021-04-23 11:04:32,504:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:33,617:INFO:Initializing load_model()
+2021-04-23 11:04:33,617:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:41,451:INFO:Initializing load_model()
+2021-04-23 11:04:41,453:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:41,812:INFO:Initializing load_model()
+2021-04-23 11:04:41,812:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:04:41,902:INFO:Initializing predict_model()
+2021-04-23 11:04:41,902:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:04:41,905:INFO:Checking exceptions
+2021-04-23 11:04:41,906:INFO:Preloading libraries
+2021-04-23 11:07:02,122:INFO:Initializing load_model()
+2021-04-23 11:07:02,123:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:14:23,379:INFO:Initializing load_model()
+2021-04-23 11:14:23,380:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:14:30,163:INFO:Initializing load_model()
+2021-04-23 11:14:30,164:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:15:11,316:INFO:Initializing load_model()
+2021-04-23 11:15:11,316:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:15:18,499:INFO:Initializing load_model()
+2021-04-23 11:15:18,499:INFO:load_model(model_name=employees_churn_model, platform=None, authentication=None, verbose=True)
+2021-04-23 11:15:18,602:INFO:Initializing predict_model()
+2021-04-23 11:15:18,603:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='left')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMClassifier(bagging_fraction=0.7, bagging_freq=6,
+                                feature_fraction=0.5, min_child_samples=66,
+                                min_split_gain=0.4, n_estimators=90,
+                                num_leaves=90, random_state=123,
+                                reg_alpha=0.0005, reg_lambda=0.1)]]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None)
+2021-04-23 11:15:18,606:INFO:Checking exceptions
+2021-04-23 11:15:18,607:INFO:Preloading libraries
