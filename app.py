@@ -30,8 +30,9 @@ def run():
     "How would you like to input features?",
     ("Single", "Batch"))
 
-    st.sidebar.info('This app is created by Gilbert Langat to predict employees churn in organization XYZ. Data used is app is obtained from [Kaggle](https://www.kaggle.com/arvindbhatt/hrcsv)')
-    st.sidebar.success('https://www.pycaret.org')
+    st.sidebar.markdown("""
+    [Example CSV input file](https://github.com/LangatGilbert/100daysofcode/blob/master/Employee%20turnover%20prediction/data/example_hr.csv)
+    """)
 
     st.title("Employee Churn Prediction App")
 
@@ -106,6 +107,9 @@ def run():
                 
             st.markdown(filedownload(predictions), unsafe_allow_html = True)
     
+    
+    st.sidebar.info('This app is created by Gilbert Langat to predict employees churn in organization XYZ. Data used is app is obtained from [Kaggle](https://www.kaggle.com/arvindbhatt/hrcsv)')
     st.sidebar.image(image)
+    st.sidebar.success('https://www.pycaret.org')
 if __name__ == '__main__':
     run()
