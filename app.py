@@ -21,8 +21,8 @@ def run():
     Image.open('./image/download.png').convert('RGB').save('logo.png')
     image = Image.open('logo.png')
 
-    Image.open('employee-turnover.png').convert('RGB').save('employee-turnover2.png')
-    image_churn = Image.open('employee-turnover2.png')
+    Image.open('ian-schneider-unsplash.jpg').convert('RGB').save('employee-turnover-ian-schneider-unsplash.png')
+    image_churn = Image.open('employee-turnover-ian-schneider-unsplash.png')
 
     
 
@@ -39,9 +39,13 @@ def run():
     st.image(image_churn)
 
     st.write("""
-    Photo by [Kate.sade](https://unsplash.com/photos/2zZp12ChxhU) on Unsplash.
-    
-    The model outputs 0 meaning the employee stays with the company and 1 means employee left.
+
+    Photo by [Ian.Schneider](https://unsplash.com/photos/TamMbr4okv4) on Unsplash.
+
+    Among all the multiple aspects of Human Resource functions, attrition is painful and dreadful thing which an organization has to face inevitably. 
+    Along with employee, valuable knowledge built over the period also walks out of the door. 
+    The objective of this study is to predict whether an employee is going to stay or leave using LightGBM machine learning model. 
+    We will calculate the probability of an employee leaving/resigning which is the converted to label 0 or 1 where 0 means employee stays and 1 employee leaves.
     
     """
     

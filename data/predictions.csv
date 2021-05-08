@@ -1,0 +1,7 @@
+satisfaction_level,last_evaluation,number_project,average_montly_hours,time_spend_company,Work_accident,left,promotion_last_5years,dept,salary,Label,Score
+0.38,0.53,2,157,3,0,1,0,sales,low,1,0.9939
+0.8,0.86,5,262,6,0,1,0,sales,medium,1,0.8073
+0.11,0.88,7,272,4,0,1,0,sales,medium,1,0.9997
+0.72,0.87,5,223,5,0,1,0,sales,low,1,0.9407
+0.37,0.52,2,159,3,0,1,0,sales,low,1,0.9841
+0.41,0.5,2,153,3,0,1,0,sales,low,1,0.9836
